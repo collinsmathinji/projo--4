@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'lato',sans-serif;
+}
+body{
+    height: 100vh;
+    background: url(pg.jpg) no-repeat center center/ cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: aliceblue;
+    border-radius: 20px;
+    width: 60%;
+    height: 250px;
+    box-shadow: 0 0 3px;
+}
+#timer{
+    font-size: 60px;
+    width: 100%;
+    text-align: center;
+    padding: 35px;
+    margin: 0px auto;
+}
+.buttons{
+    font-size: 10px;
+    width: 100%;
+    text-align: center;
+    padding: 35px;
+    margin: 0px auto;
+}
+button{
+    margin: 0 20px;
+    border: none;
+}
+i{
+    color: aliceblue;
+    font-size: 30px;
+    padding: 10px;
+}
+#play{
+    background-color: chartreuse;
+}
+#reset{
+    background-color: brown;
+}
+#pause{
+    background-color: orange;
+}
